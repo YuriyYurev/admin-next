@@ -57,9 +57,15 @@
 		&:hover {
 			background: #E0ECFF;
 			border-color: #3490F6;
-			> .text, >svg {
+			> .text, > svg {
 				color: #0068B9;
 			}
+		}
+	}
+	&.active {
+		pointer-events: none;
+		> .text, > svg {
+			color: #0068B9;
 		}
 	}
 }
